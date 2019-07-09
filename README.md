@@ -6,6 +6,8 @@ Upload a .CSV export from your Google Analytics account to explore your visitors
 
 ## How do I get the .CSV file?
 
+To get the analytics data in a form that can be used by this tool, you need to create a Custom Report with specific columns:
+
 1. Go to <kbd>Google Analytics</kbd> → <kbd>Customization</kbd> → <kbd>Custom Reports</kbd>
 2. Create a new custom report with the following characteristics:
 	* __Type__: _Flat table_

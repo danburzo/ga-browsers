@@ -1,7 +1,8 @@
 .dropzone {
-	padding: 1em;
+	padding: 2em;
 	text-align: center;
-	border: 1px solid #000;
+	border: 3px solid #333;
+	background: #f0f0f0;
 }
 
 .target-browsers {
@@ -10,7 +11,10 @@
 
 .target-browsers li {
 	display: inline-block;
-	margin: 0 1em;
+	margin: 0.25em;
+	padding: 0.5em;
+	line-height: 1;
+	border: 1px solid #999;
 }
 
 .slider input {

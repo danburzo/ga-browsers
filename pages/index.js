@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { Fragment, useState, useEffect, useCallback } from 'react';
 
 import { stack, stackOffsetDiverging } from 'd3-shape';
 import { csvParse } from 'd3-dsv';
@@ -6,6 +6,8 @@ import { group, min, max, range, zip } from 'd3-array';
 import { scaleLinear, scaleBand } from 'd3-scale';
 
 import './index.css';
+
+const DEFAULT_THRESHOLD = 95;
 
 const process = text => {
 	const block = text.split('\n').filter(line => line && !line.match(/^\#/)).join('\n');
@@ -50,8 +52,6 @@ const aggregate = contents => Array.from(
 	).map(
 		([name, vers]) => {
 
-			console.log(name);
-
 			let versions = Array.from(vers)
 				.map(
 					([version, items]) => ({
@@ -91,7 +91,8 @@ const Chart = ({ contents }) => {
 const Home = () => {
 
 	let [contents, setContents] = useState(null);
-	let [threshold, setTreshold] = useState(90);
+	let [threshold, setTreshold] = useState(DEFAULT_THRESHOLD);
+	let [sort, setSort] = useState('usage');
 
 	let onDrop = useCallback(e => {
 		e.preventDefault();
@@ -128,23 +129,44 @@ const Home = () => {
 			coverage += candidates[i][1].users;
 			i++;
 		}
+		if (sort === 'name') {
+			browsers.sort((a, b) => {
+				if (a[0] > b[0]) return 1;
+				if (a[0] < b[0]) return -1;
+				if (a[1].version > b[1].version) return -1;
+				if (a[1].version < b[1].version) return 1;
+				return 0;
+			});
+		}
 	} else {
 		browsers = null;
 	}
 
 	return (
-		<div>
-			<div className='dropzone' onDrop={onDrop} onDragOver={onDragOver}>
-				Drop .csv here
-			</div>
-			<div className='slider'>
-				<label>Support <input type='range' value={threshold} min='0' max='100' step='0.25' onChange={e => setTreshold(e.target.value)} /> {threshold}% of visitors</label>
-			</div>
+		<Fragment>
+
+			<header>
+				<h1>Explore browser versions from analytics data</h1>
+				<nav>By <a href='https://twitter.com/danburzo'>@danburzo</a> — <a href=''>Source code</a></nav>	 
+			</header>
+
+			<p className='dropzone' onDrop={onDrop} onDragOver={onDragOver}>
+				<strong>Drop a Google Analytics <code>.csv</code> in this box.</strong> (<a href='https://github.com/danburzo/ga-browsers'>How do I make one?</a>)
+			</p>
+			{ contents && 
+				<div className='slider'>
+					List browsers for <input type='range' value={threshold} min='0' max='100' step='0.25' onChange={e => setTreshold(e.target.value)} /> {threshold}% of visitors and sort by {' '}
+					<select value={sort} onChange={ e => setSort(e.target.value)}>
+						<option value='usage'>usage</option>
+						<option value='name'>name</option>
+					</select>
+				</div>
+			}
 			{browsers && (<ul className='target-browsers'>
 				{browsers.map((item,idx) => <li key={idx}>{item[0]} {item[1].version}</li>)}
 			</ul>)}
 			{ contents && <Chart contents={contents}/> }
-		</div>
+		</Fragment>
 	);
 };
 
