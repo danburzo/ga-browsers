@@ -1,0 +1,24 @@
+.dropzone {
+	padding: 2em;
+	text-align: center;
+	border: 3px solid #333;
+	background: #f0f0f0;
+}
+
+#browsers {
+	list-style: none;
+}
+
+#browsers li {
+	display: inline-block;
+	margin: 0.25em;
+	padding: 0.5em;
+	line-height: 1;
+	border: 1px solid #999;
+}
+
+.slider input {
+	width: 30em;
+	display: inline-block;
+	vertical-align: middle;
+}

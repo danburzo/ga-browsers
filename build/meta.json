@@ -1,0 +1,1040 @@
+{
+  "inputs": {
+    "src/index.css": {
+      "bytes": 344,
+      "imports": []
+    },
+    "src/index.html": {
+      "bytes": 1272,
+      "imports": []
+    },
+    "node_modules/d3-dsv/src/dsv.js": {
+      "bytes": 4838,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-dsv/src/csv.js": {
+      "bytes": 331,
+      "imports": [
+        {
+          "path": "node_modules/d3-dsv/src/dsv.js",
+          "kind": "import-statement",
+          "original": "./dsv.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-dsv/src/tsv.js": {
+      "bytes": 332,
+      "imports": [
+        {
+          "path": "node_modules/d3-dsv/src/dsv.js",
+          "kind": "import-statement",
+          "original": "./dsv.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-dsv/src/autoType.js": {
+      "bytes": 796,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-dsv/src/index.js": {
+      "bytes": 338,
+      "imports": [
+        {
+          "path": "node_modules/d3-dsv/src/dsv.js",
+          "kind": "import-statement",
+          "original": "./dsv.js"
+        },
+        {
+          "path": "node_modules/d3-dsv/src/csv.js",
+          "kind": "import-statement",
+          "original": "./csv.js"
+        },
+        {
+          "path": "node_modules/d3-dsv/src/tsv.js",
+          "kind": "import-statement",
+          "original": "./tsv.js"
+        },
+        {
+          "path": "node_modules/d3-dsv/src/autoType.js",
+          "kind": "import-statement",
+          "original": "./autoType.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/ascending.js": {
+      "bytes": 127,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/descending.js": {
+      "bytes": 144,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/bisector.js": {
+      "bytes": 1569,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/descending.js",
+          "kind": "import-statement",
+          "original": "./descending.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/number.js": {
+      "bytes": 465,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/bisect.js": {
+      "bytes": 337,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/bisector.js",
+          "kind": "import-statement",
+          "original": "./bisector.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/number.js",
+          "kind": "import-statement",
+          "original": "./number.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/blur.js": {
+      "bytes": 4082,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/count.js": {
+      "bytes": 424,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/cross.js": {
+      "bytes": 872,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/cumsum.js": {
+      "bytes": 218,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/variance.js": {
+      "bytes": 668,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/deviation.js": {
+      "bytes": 164,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/variance.js",
+          "kind": "import-statement",
+          "original": "./variance.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/extent.js": {
+      "bytes": 723,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/fsum.js": {
+      "bytes": 1600,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/internmap/src/index.js": {
+      "bytes": 1577,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/identity.js": {
+      "bytes": 52,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/group.js": {
+      "bytes": 1725,
+      "imports": [
+        {
+          "path": "node_modules/internmap/src/index.js",
+          "kind": "import-statement",
+          "original": "internmap"
+        },
+        {
+          "path": "node_modules/d3-array/src/identity.js",
+          "kind": "import-statement",
+          "original": "./identity.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/permute.js": {
+      "bytes": 97,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/sort.js": {
+      "bytes": 1253,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/permute.js",
+          "kind": "import-statement",
+          "original": "./permute.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/groupSort.js": {
+      "bytes": 429,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/group.js",
+          "kind": "import-statement",
+          "original": "./group.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/sort.js",
+          "kind": "import-statement",
+          "original": "./sort.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/array.js": {
+      "bytes": 90,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/constant.js": {
+      "bytes": 58,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/ticks.js": {
+      "bytes": 1958,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/nice.js": {
+      "bytes": 535,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ticks.js",
+          "kind": "import-statement",
+          "original": "./ticks.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/threshold/sturges.js": {
+      "bytes": 160,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/count.js",
+          "kind": "import-statement",
+          "original": "../count.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/bin.js": {
+      "bytes": 4055,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/array.js",
+          "kind": "import-statement",
+          "original": "./array.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/bisect.js",
+          "kind": "import-statement",
+          "original": "./bisect.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/constant.js",
+          "kind": "import-statement",
+          "original": "./constant.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/extent.js",
+          "kind": "import-statement",
+          "original": "./extent.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/identity.js",
+          "kind": "import-statement",
+          "original": "./identity.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/nice.js",
+          "kind": "import-statement",
+          "original": "./nice.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/ticks.js",
+          "kind": "import-statement",
+          "original": "./ticks.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/threshold/sturges.js",
+          "kind": "import-statement",
+          "original": "./threshold/sturges.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/max.js": {
+      "bytes": 502,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/maxIndex.js": {
+      "bytes": 582,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/min.js": {
+      "bytes": 502,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/minIndex.js": {
+      "bytes": 582,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/quickselect.js": {
+      "bytes": 1561,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/sort.js",
+          "kind": "import-statement",
+          "original": "./sort.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/greatest.js": {
+      "bytes": 675,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/quantile.js": {
+      "bytes": 1774,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/max.js",
+          "kind": "import-statement",
+          "original": "./max.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/maxIndex.js",
+          "kind": "import-statement",
+          "original": "./maxIndex.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/min.js",
+          "kind": "import-statement",
+          "original": "./min.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/minIndex.js",
+          "kind": "import-statement",
+          "original": "./minIndex.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/quickselect.js",
+          "kind": "import-statement",
+          "original": "./quickselect.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/number.js",
+          "kind": "import-statement",
+          "original": "./number.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/sort.js",
+          "kind": "import-statement",
+          "original": "./sort.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/greatest.js",
+          "kind": "import-statement",
+          "original": "./greatest.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/threshold/freedmanDiaconis.js": {
+      "bytes": 303,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/count.js",
+          "kind": "import-statement",
+          "original": "../count.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/quantile.js",
+          "kind": "import-statement",
+          "original": "../quantile.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/threshold/scott.js": {
+      "bytes": 260,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/count.js",
+          "kind": "import-statement",
+          "original": "../count.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/deviation.js",
+          "kind": "import-statement",
+          "original": "../deviation.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/mean.js": {
+      "bytes": 483,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/median.js": {
+      "bytes": 245,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/quantile.js",
+          "kind": "import-statement",
+          "original": "./quantile.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/merge.js": {
+      "bytes": 165,
+      "imports": [
+        {
+          "path": "<runtime>",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/mode.js": {
+      "bytes": 708,
+      "imports": [
+        {
+          "path": "node_modules/internmap/src/index.js",
+          "kind": "import-statement",
+          "original": "internmap"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/pairs.js": {
+      "bytes": 307,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/range.js": {
+      "bytes": 350,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/rank.js": {
+      "bytes": 942,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/sort.js",
+          "kind": "import-statement",
+          "original": "./sort.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/least.js": {
+      "bytes": 672,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/leastIndex.js": {
+      "bytes": 467,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/minIndex.js",
+          "kind": "import-statement",
+          "original": "./minIndex.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/greatestIndex.js": {
+      "bytes": 470,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/maxIndex.js",
+          "kind": "import-statement",
+          "original": "./maxIndex.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/scan.js": {
+      "bytes": 178,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/leastIndex.js",
+          "kind": "import-statement",
+          "original": "./leastIndex.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/shuffle.js": {
+      "bytes": 329,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/sum.js": {
+      "bytes": 362,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/transpose.js": {
+      "bytes": 369,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/min.js",
+          "kind": "import-statement",
+          "original": "./min.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/zip.js": {
+      "bytes": 106,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/transpose.js",
+          "kind": "import-statement",
+          "original": "./transpose.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/every.js": {
+      "bytes": 265,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/some.js": {
+      "bytes": 263,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/filter.js": {
+      "bytes": 291,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/map.js": {
+      "bytes": 310,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/reduce.js": {
+      "bytes": 460,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/reverse.js": {
+      "bytes": 183,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/difference.js": {
+      "bytes": 250,
+      "imports": [
+        {
+          "path": "node_modules/internmap/src/index.js",
+          "kind": "import-statement",
+          "original": "internmap"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/disjoint.js": {
+      "bytes": 404,
+      "imports": [
+        {
+          "path": "node_modules/internmap/src/index.js",
+          "kind": "import-statement",
+          "original": "internmap"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/intersection.js": {
+      "bytes": 446,
+      "imports": [
+        {
+          "path": "node_modules/internmap/src/index.js",
+          "kind": "import-statement",
+          "original": "internmap"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/superset.js": {
+      "bytes": 530,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/subset.js": {
+      "bytes": 123,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/superset.js",
+          "kind": "import-statement",
+          "original": "./superset.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/union.js": {
+      "bytes": 217,
+      "imports": [
+        {
+          "path": "node_modules/internmap/src/index.js",
+          "kind": "import-statement",
+          "original": "internmap"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/d3-array/src/index.js": {
+      "bytes": 3058,
+      "imports": [
+        {
+          "path": "node_modules/d3-array/src/bisect.js",
+          "kind": "import-statement",
+          "original": "./bisect.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/ascending.js",
+          "kind": "import-statement",
+          "original": "./ascending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/bisector.js",
+          "kind": "import-statement",
+          "original": "./bisector.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/blur.js",
+          "kind": "import-statement",
+          "original": "./blur.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/count.js",
+          "kind": "import-statement",
+          "original": "./count.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/cross.js",
+          "kind": "import-statement",
+          "original": "./cross.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/cumsum.js",
+          "kind": "import-statement",
+          "original": "./cumsum.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/descending.js",
+          "kind": "import-statement",
+          "original": "./descending.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/deviation.js",
+          "kind": "import-statement",
+          "original": "./deviation.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/extent.js",
+          "kind": "import-statement",
+          "original": "./extent.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/fsum.js",
+          "kind": "import-statement",
+          "original": "./fsum.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/group.js",
+          "kind": "import-statement",
+          "original": "./group.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/groupSort.js",
+          "kind": "import-statement",
+          "original": "./groupSort.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/bin.js",
+          "kind": "import-statement",
+          "original": "./bin.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/threshold/freedmanDiaconis.js",
+          "kind": "import-statement",
+          "original": "./threshold/freedmanDiaconis.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/threshold/scott.js",
+          "kind": "import-statement",
+          "original": "./threshold/scott.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/threshold/sturges.js",
+          "kind": "import-statement",
+          "original": "./threshold/sturges.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/max.js",
+          "kind": "import-statement",
+          "original": "./max.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/maxIndex.js",
+          "kind": "import-statement",
+          "original": "./maxIndex.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/mean.js",
+          "kind": "import-statement",
+          "original": "./mean.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/median.js",
+          "kind": "import-statement",
+          "original": "./median.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/merge.js",
+          "kind": "import-statement",
+          "original": "./merge.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/min.js",
+          "kind": "import-statement",
+          "original": "./min.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/minIndex.js",
+          "kind": "import-statement",
+          "original": "./minIndex.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/mode.js",
+          "kind": "import-statement",
+          "original": "./mode.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/nice.js",
+          "kind": "import-statement",
+          "original": "./nice.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/pairs.js",
+          "kind": "import-statement",
+          "original": "./pairs.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/permute.js",
+          "kind": "import-statement",
+          "original": "./permute.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/quantile.js",
+          "kind": "import-statement",
+          "original": "./quantile.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/quickselect.js",
+          "kind": "import-statement",
+          "original": "./quickselect.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/range.js",
+          "kind": "import-statement",
+          "original": "./range.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/rank.js",
+          "kind": "import-statement",
+          "original": "./rank.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/least.js",
+          "kind": "import-statement",
+          "original": "./least.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/leastIndex.js",
+          "kind": "import-statement",
+          "original": "./leastIndex.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/greatest.js",
+          "kind": "import-statement",
+          "original": "./greatest.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/greatestIndex.js",
+          "kind": "import-statement",
+          "original": "./greatestIndex.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/scan.js",
+          "kind": "import-statement",
+          "original": "./scan.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/shuffle.js",
+          "kind": "import-statement",
+          "original": "./shuffle.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/sum.js",
+          "kind": "import-statement",
+          "original": "./sum.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/ticks.js",
+          "kind": "import-statement",
+          "original": "./ticks.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/transpose.js",
+          "kind": "import-statement",
+          "original": "./transpose.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/variance.js",
+          "kind": "import-statement",
+          "original": "./variance.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/zip.js",
+          "kind": "import-statement",
+          "original": "./zip.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/every.js",
+          "kind": "import-statement",
+          "original": "./every.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/some.js",
+          "kind": "import-statement",
+          "original": "./some.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/filter.js",
+          "kind": "import-statement",
+          "original": "./filter.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/map.js",
+          "kind": "import-statement",
+          "original": "./map.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/reduce.js",
+          "kind": "import-statement",
+          "original": "./reduce.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/reverse.js",
+          "kind": "import-statement",
+          "original": "./reverse.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/sort.js",
+          "kind": "import-statement",
+          "original": "./sort.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/difference.js",
+          "kind": "import-statement",
+          "original": "./difference.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/disjoint.js",
+          "kind": "import-statement",
+          "original": "./disjoint.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/intersection.js",
+          "kind": "import-statement",
+          "original": "./intersection.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/subset.js",
+          "kind": "import-statement",
+          "original": "./subset.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/superset.js",
+          "kind": "import-statement",
+          "original": "./superset.js"
+        },
+        {
+          "path": "node_modules/d3-array/src/union.js",
+          "kind": "import-statement",
+          "original": "./union.js"
+        },
+        {
+          "path": "node_modules/internmap/src/index.js",
+          "kind": "import-statement",
+          "original": "internmap"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/index.js": {
+      "bytes": 3252,
+      "imports": [
+        {
+          "path": "node_modules/d3-dsv/src/index.js",
+          "kind": "import-statement",
+          "original": "d3-dsv"
+        },
+        {
+          "path": "node_modules/d3-array/src/index.js",
+          "kind": "import-statement",
+          "original": "d3-array"
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "build/index.css": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "src/index.css": {
+          "bytesInOutput": 344
+        }
+      },
+      "bytes": 344
+    },
+    "build/index.html": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "src/index.html": {
+          "bytesInOutput": 1272
+        }
+      },
+      "bytes": 1272
+    },
+    "build/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "src/index.js",
+      "inputs": {
+        "node_modules/d3-dsv/src/dsv.js": {
+          "bytesInOutput": 2134
+        },
+        "node_modules/d3-dsv/src/csv.js": {
+          "bytesInOutput": 108
+        },
+        "node_modules/d3-dsv/src/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/internmap/src/index.js": {
+          "bytesInOutput": 623
+        },
+        "node_modules/d3-array/src/identity.js": {
+          "bytesInOutput": 23
+        },
+        "node_modules/d3-array/src/group.js": {
+          "bytesInOutput": 255
+        },
+        "node_modules/d3-array/src/index.js": {
+          "bytesInOutput": 0
+        },
+        "src/index.js": {
+          "bytesInOutput": 934
+        }
+      },
+      "bytes": 4078
+    }
+  }
+}

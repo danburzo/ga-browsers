@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Google Analytics browser version explorer</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<header>
+		<h1>Explore browser versions from analytics data</h1>
+		<p><a href='https://github.com/danburzo/ga-browsers/'>Source code</a></p>
+	</header>
+
+	<p class='dropzone'>
+		<strong>Drop a Google Analytics <code>.csv</code> in this box.</strong> (<a href='https://github.com/danburzo/ga-browsers'>How do I make one?</a>)
+	</p>
+	<div id='controls' style='display: none;'>
+		List browsers for <input id='threshold' type='range' value='95' min='0' max='100' step='0.25' /> <output id='threshold-output'></output>% of visitors and sort by 
+		<select id='sorting'>
+			<option value='usage' selected>usage</option>
+			<option value='name'>name</option>
+		</select>
+	</div>
+
+	<ul id='browsers'>
+		
+	</ul>
+	<script type="module" src='./index.js'></script>
+</body>
+</html>

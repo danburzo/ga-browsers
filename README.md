@@ -14,5 +14,7 @@ To get the analytics data in a form that can be used by this tool, you need to c
 	* __Dimensions__: _Browser_, _Operating System_, _Browser Version_
 	* __Metrics__: _Users_
 	* __Views__: your desired view
-3. View the report, and at the bottom select _Show 5000 rows_ to get the most data
+3. View the report, and make some changes:
+	* choose your desired date range
+	* at the bottom select _Show 5000 rows_ to get the most data
 4. Export the report as `.csv`
